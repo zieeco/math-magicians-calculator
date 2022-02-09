@@ -1,27 +1,20 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Calculator from './components/Calculator';
 
-const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        <code>src/App.js</code>
-        {' '}
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-      </p>
-      and save to reload.
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
-);
+  render() {
+    return (
+      <div className="container">
+        <Calculator />
+      </div>
+    );
+  }
+}
 
 export default App;
