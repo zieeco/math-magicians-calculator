@@ -66,7 +66,7 @@ Run the following command in your terminal or command line to install the `npm` 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zieeco/math-magicians-calculator/issues).
+Feel free to check the [issues page](https://github.com/zieeco/math-magicians-calculator-/issues).
 
 ## Show your support
 
