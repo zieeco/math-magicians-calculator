@@ -1,6 +1,9 @@
-* {
-  padding: 0;
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 article,
@@ -35,7 +38,7 @@ button:active {
 ul,
 li,
 a {
-	list-style: none;
+ list-style: none;
   text-decoration: none;
   color: inherit;
 }
