@@ -1,11 +1,3 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .calc-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -42,8 +34,5 @@
 button:nth-child(4n+1),
 button:nth-child(20) {
   border-right: none;
-}
-
-.op-col {
   background-color: rgb(236, 154, 2);
 }
