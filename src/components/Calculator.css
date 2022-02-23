@@ -31,8 +31,7 @@
   border-right: 2px solid rgb(190, 189, 189);
 }
 
-button:nth-child(4n+1),
-button:nth-child(20) {
+.orange {
   border-right: none;
   background-color: rgb(236, 154, 2);
 }
