@@ -39,7 +39,7 @@ const Navbar = () => {
       <h1>Math Magicians</h1>
       <nav className={`navBar ${navbarOpened ? 'show-menu' : ''}`}>
         <button type="button" onClick={handleToggle}>{navbarOpened ? (<MdClose style={{ color: '#fff', height: '40px', width: '40px' }} />) : (<FiMenu style={{ color: '#7b7b7b', height: '40px', width: '40px' }} />)}</button>
-        <ul className={` ${navbarOpened ? 'navList-sm' : 'navList-bg'}`}>
+        <ul className={`${navbarOpened ? 'navList-sm' : 'navList-bg'}`}>
           {navLinks.map((navLink) => (
             <li key={navLink.id}>
               <NavLink
