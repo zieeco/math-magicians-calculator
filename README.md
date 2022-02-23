@@ -2,8 +2,6 @@
 
 This project is an online calculator. one could perform the basic arithmetic operation: addition, multiplication, subtraction, and division. more about the project is listed below.
 
-## Live Demo Link
-- [Live view](https://github.com/zieeco/math-magicians-calculator)
 
 ## Built With
 
