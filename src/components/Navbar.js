@@ -9,19 +9,19 @@ const Navbar = () => {
   const navLinks = [
     {
       id: 1,
-      path: '/',
+      path: 'math-magicians-calculator/',
       text: 'Home',
     },
 
     {
       id: 2,
-      path: '/calculator',
+      path: 'math-magicians-calculator/calculator',
       text: 'Calculator',
     },
 
     {
       id: 3,
-      path: '/quotes',
+      path: 'math-magicians-calculator/quotes',
       text: 'Quotes',
     },
   ];
