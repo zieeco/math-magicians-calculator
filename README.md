@@ -3,6 +3,21 @@
 This project is an online calculator. one could perform the basic arithmetic operation: addition, multiplication, subtraction, and division. more about the project is listed below.
 
 
+<p align="center">
+
+> || Mobile version || Destop Version ||
+> |-|---------|-|---------|-|
+> || ![Screenshot1](/src/assets/math.png) || ![screen2](/src/assets/cal_bg.png) ||
+</p>
+
+## Live Demo Link
+**_Heroku_**
+- [Live Link](https://math-magician-calculator.herokuapp.com/)
+
+**_Netlify_**
+- [Live Link](https://relaxed-ride-bb9e65.netlify.app/)
+
+
 ## Built With
 
   ~~~ bash
